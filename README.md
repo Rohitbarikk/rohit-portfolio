@@ -2,7 +2,7 @@
 
 Personal portfolio website built with React + Vite + TailwindCSS.
 
-Live Site: https://your-netlify-link.netlify.app  
+Live Site: https://rohitbarik-portfolio.netlify.app/
 GitHub: https://github.com/Rohitbarikk
 
 ---
