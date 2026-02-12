@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+
+  /* Accent system (toggle-able) */
+  --accent: #7C5CFF;   /* purple */
+  --accent2: #00D4FF;  /* cyan */
+  --united: #DA291C;   /* Man United red */
+}
+
+/* Cyan mode */
+:root[data-accent="cyan"] {
+  --accent: #00D4FF;
+  --accent2: #7C5CFF;
+}
+/* Orbit stickers (Hero only) */
+.sticker {
+  @apply inline-flex items-center gap-2 px-3 py-1 rounded-full border border-line bg-panel2/85;
+  @apply text-[11px] md:text-sm text-ink/90;
+  @apply shadow-soft backdrop-blur;
+  max-width: 140px;
+  white-space: nowrap;
+}
+
+/* Make the avatar “stage” never clip stickers */
+.avatarStage {
+  position: relative;
+  overflow: visible;
+  min-height: 560px;
+}
+.windowBar {
+  @apply flex items-center justify-between px-4 py-3 border-b border-line rounded-t-2xl bg-panel2;
+  @apply text-[11px] md:text-xs text-ink/50;
+}
+body {
+  @apply bg-bg text-ink font-sans;
+  font-size: 16px;
+}
+
+@media (min-width: 768px) {
+  body { font-size: 17px; }
+}
+.dock-item {
+  @apply flex items-center gap-3 px-4 py-3 rounded-2xl border border-line bg-panel2 text-ink transition-all duration-300 overflow-hidden;
+  width: 48px;
+}
+
+.dock-item svg {
+  font-size: 18px;
+}
+
+.dock-item span {
+  opacity: 0;
+  white-space: nowrap;
+  transition: opacity 0.3s ease;
+}
+
+.dock-item:hover {
+  width: 150px;
+  box-shadow: 0 0 20px rgba(0, 212, 255, 0.25);
+}
+
+.dock-item:hover span {
+  opacity: 1;
+}
