@@ -1,16 +1,94 @@
-# React + Vite
+# Rohit Barik — Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Personal portfolio website built with React + Vite + TailwindCSS.
 
-Currently, two official plugins are available:
+Live Site: https://your-netlify-link.netlify.app  
+GitHub: https://github.com/Rohitbarikk
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## About
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+This portfolio highlights:
 
-## Expanding the ESLint configuration
+- Data Science projects
+- Analytics & forecasting work
+- Professional experience
+- Technical skill set
+- Selected creative work
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Currently pursuing:
+**M.Sc. Data Science — FAU Erlangen–Nürnberg**
+
+---
+
+## Tech Stack
+
+- React (Vite)
+- TailwindCSS
+- JavaScript
+- Framer Motion
+- Netlify (Deployment)
+- Git / GitHub
+
+---
+
+## Projects Featured
+
+- IMAX Financial Planning Model (Anaplan)
+- Native Language Detection (Computer Vision)
+- Corporate Risk Radar (In Progress)
+- IMDB Sentiment Analysis (In Progress)
+
+---
+
+## Creative Work
+
+Selected short-form edits showcasing pacing, rhythm, and storytelling.
+
+Hosted externally via Vimeo.
+
+---
+
+## Installation (Local Development)
+
+Clone the repository:
+
+```bash
+git clone https://github.com/Rohitbarikk/rohit-portfolio.git
+cd rohit-portfolio
+npm install
+npm run dev
+```
+
+---
+
+## Build for Production
+
+```bash
+npm run build
+```
+
+Output folder:
+```
+dist/
+```
+
+---
+
+## Deployment
+
+Deployed via Netlify using GitHub integration.
+
+Any push to the `main` branch automatically triggers a rebuild.
+
+---
+
+## Contact
+
+Email: rohitbarik11@gmail.com  
+LinkedIn: https://www.linkedin.com/in/rohitbarikk/
+
+---
+
+Built by Rohit Barik © 2026
