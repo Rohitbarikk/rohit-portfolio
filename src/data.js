@@ -1,3 +1,4 @@
+
 export const PROFILE = {
   name: "Rohit Barik",
   role: "Data Analyst • M.Sc. Data Science @ FAU Erlangen–Nürnberg",
@@ -5,16 +6,23 @@ export const PROFILE = {
   email: "rohitbarik11@gmail.com",
   github: "https://github.com/Rohitbarikk",
   linkedin: "https://www.linkedin.com/in/rohitbarikk/",
-  resume: "/resume.pdf", // put resume.pdf inside /public
+  resume: "/resume.pdf",
+  creativePortfolio: "https://rohitbarik-creative.netlify.app/",
   summary:
     "I’m a Data Science Master’s student at FAU (Nürnberg–Erlangen) with experience in forecasting, analytics, and planning models. I’ve built Anaplan models, automated reporting with Python/SQL, and turned business data into decisions teams can act on.",
 
-  // LEFT side (professional only)
-  vibeTags: ["Machine Learning", "Forecasting", "Analytics", "Anaplan", "Python", "SQL"],
+  // Professional interests
+  vibeTags: [
+    "Machine Learning",
+    "Forecasting",
+    "Analytics",
+    "Anaplan",
+    "Python",
+    "SQL",
+  ],
 };
 
-
-// Put interests ONLY under the photo (right side)
+// Interests shown under the profile photo
 export const HERO_CHIPS = [
   "📊 Data Analysis",
   "🎬 Video Editing",
@@ -22,14 +30,14 @@ export const HERO_CHIPS = [
   "🏸 Badminton",
 ];
 
-// Languages section data
+// Languages
 export const LANGUAGES = [
   { name: "English", level: "Fluent" },
   { name: "Hindi", level: "Native" },
-  { name: "German", level: "A2" }, // change to A1 if you prefer accuracy
+  { name: "German", level: "A2" },
 ];
 
-// Keep skills as skills (cert removed)
+// Skills
 export const SKILLS = [
   { name: "Python", level: "Strong" },
   { name: "SQL", level: "Strong" },
@@ -43,35 +51,37 @@ export const SKILLS = [
   { name: "Git/GitHub", level: "Strong" },
 ];
 
-// EXPERIENCE (keep your correct order)
+// Experience
 export const EXPERIENCE = [
   {
     company: "Vellore Institute of Technology (VIT), Vellore",
     title: "B.Tech — Computer Science Engineering (CGPA: 8.25)",
     place: "India",
     time: "2020 – 2024",
-    bullets: ["Strong CS foundation: DSA, programming, and project work."],
+    bullets: [
+      "Strong CS foundation: DSA, programming, and project work.",
+    ],
   },
   {
     company: "Relanto Global Pvt. Ltd.",
-    title: "Technical Intern (Associate Consultant – Financial Planning & SCM)",
+    title: "Technical Intern — Financial Planning & SCM",
     place: "Bengaluru, India",
     time: "Feb 2024 – Sep 2024",
     bullets: [
-      "Designed Anaplan models integrating multi-source data.",
-      "Built forecasting dashboards for IMAX planning and analysis.",
-      "Used SQL, Excel and Java for model logic and data flows.",
+      "Designed and built 10+ interactive Anaplan UX pages for KPI monitoring, financial planning, and management reporting.",
+      "Designed Anaplan models integrating multi-source data and built forecasting dashboards for IMAX planning and analysis.",
+      "Used SQL and Excel to support model logic, data validation, and reporting workflows.",
     ],
   },
   {
     company: "Bryt Bazaar",
     title: "Data Analyst",
     place: "Bengaluru, India",
-    time: "Sep 2024 – Mar 2025",
+    time: "Sep 2024 – May 2025",
     bullets: [
-      "Analyzed sales & product performance using Python/Jupyter and Odoo.",
-      "Delivered weekly insights to stakeholders.",
-      "Improved reporting workflows and reduced manual effort.",
+      "Analyzed sales and product performance using Python/Jupyter and Odoo.",
+      "Delivered weekly insights to stakeholders through reporting and product-level visualizations.",
+      "Presented weekly reports highlighting top sellers, underperformers, and promotion opportunities.",
     ],
   },
   {
@@ -79,11 +89,13 @@ export const EXPERIENCE = [
     title: "M.Sc. Data Science",
     place: "Nürnberg, Germany",
     time: "Oct 2025 – Present",
-    bullets: ["Focused on applied ML, analytics, and real-world data projects."],
+    bullets: [
+      "Focused on applied ML, analytics, and real-world data projects.",
+    ],
   },
 ];
 
-// Projects stay as you already have (no tips text)
+// Projects
 export const PROJECTS = [
   {
     title: "IMAX Financial Planning Model (Anaplan)",
@@ -98,21 +110,22 @@ export const PROJECTS = [
     link: "https://github.com/Rohitbarikk",
   },
   {
-  title: "Corporate Risk Radar",
-  desc: "Risk monitoring dashboard for corporate decision-making. Focused on patterns, anomalies, and indicators.",
-  tags: ["Python", "Risk Analysis", "Visualization"],
-  link: "https://github.com/Rohitbarikk/corporate-risk-radar",
-  status: "In Progress",
-},
-{
-  title: "IMDB Sentiment Analysis",
-  desc: "Sentiment classification project analyzing movie reviews using NLP techniques.",
-  tags: ["Python", "NLP", "Machine Learning"],
-  link: "https://github.com/Rohitbarikk/Project1_IMDB_Sentiment",
-  status: "In Progress",
-},
+    title: "Corporate Risk Radar",
+    desc: "Risk monitoring dashboard for corporate decision-making. Focused on patterns, anomalies, and indicators.",
+    tags: ["Python", "Risk Analysis", "Visualization"],
+    link: "https://github.com/Rohitbarikk/corporate-risk-radar",
+    status: "In Progress",
+  },
+  {
+    title: "IMDB Sentiment Analysis",
+    desc: "Sentiment classification project analyzing movie reviews using NLP techniques.",
+    tags: ["Python", "NLP", "Machine Learning"],
+    link: "https://github.com/Rohitbarikk/Project1_IMDB_Sentiment",
+    status: "In Progress",
+  },
 ];
 
+// Creative videos
 export const CREATIVE_LAB = [
   {
     title: "Colors",
